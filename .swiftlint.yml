@@ -3,7 +3,9 @@ opt_in_rules:
   - file_header
 
 excluded:
+  - build
   - .build
+  - WhiskyKit/.build
 
 file_header:
     severity: error
